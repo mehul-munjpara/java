@@ -2,9 +2,8 @@ import java.util.Scanner;
 public class Conditionals {
     public static void main(String[] args) {
 
-//            Scanner sc = new Scanner(System.in);
+              Scanner sc = new Scanner(System.in);
 //            int age = sc.nextInt();
-
 
 //            if(age > 18){
 //                System.out.println("You are eligible to apply for Licence");
@@ -24,8 +23,6 @@ public class Conditionals {
 //            System.out.println("You are not eligible");
 //        }
 
-
-//        Scanner sc = new Scanner(System.in);
 //
 //        System.out.println("Enter Your Age:- ");
 //        int age = sc.nextInt();
@@ -44,6 +41,22 @@ public class Conditionals {
 //                System.out.println("Life is a journey");
 //
 //        }
+
+
+          String str = sc.nextLine();
+
+          switch(str){
+              case "a" ->{
+                  System.out.println("You'r answer is wrong");
+              }
+              case "b" ->{
+                  System.out.println("This is near your target sum");
+              }
+              case "c" ->{
+                  System.out.println("You'r answer is right");
+              }
+              default -> System.out.println("Thid option is not available");
+          }
 
 
     }
