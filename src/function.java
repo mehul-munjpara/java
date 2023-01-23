@@ -5,10 +5,15 @@ public class function {
         return s;
     }
 
+    static int sub(int c, int d){
+        int sub = c - d;
+        return sub;
+    }
+
     //if we don't want to return anything
-//    static void PrintName(){
-//        System.out.println("Mehul Munjpara");
-//    }
+    static void PrintName(){
+        System.out.println("Mehul Munjpara");
+    }
 
 
     public static void main(String[] args) {
@@ -22,6 +27,11 @@ public class function {
 
 
         //This is only for PrintName function
-//        PrintName();
+        PrintName();
+
+        int x= 19;
+        int y= 17;
+        int sub1 = sub(x,y);
+        System.out.println(sub1);
     }
 }
