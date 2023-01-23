@@ -1,17 +1,50 @@
+import java.util.Scanner;
+
 public class patternExample {
 
     // input => n = 4
     // output => 1 2 3 4.........n
 
+//    static void printRow(int n){
+//        for(int i = 1;i <= n; i++){
+//            System.out.print(i+" ");
+//        }
+//
+//    }
 
-    static void printRow(int n){
-        for(int i = 1;i <= n; i++){
+
+    // input => n=4
+    //output => 4 3 2 1
+
+    static void printDesc(int n){
+        for(int i = n; i>=1 ; i--){
             System.out.print(i+" ");
-            return n;
         }
-
     }
-    public static void main(String[] args) {
 
+    // input=> n = 5
+//    Output = 1 2 3 4 5 4 3 2 1
+
+    static void printasc(int n){
+        for(int i = 1 ; i <= n ; i++){
+            System.out.print(i+" ");
+        }
     }
-}
+    static void printdes(int n) {
+        for (int i = n; i >= 1; i--) {
+            System.out.print(i + " ");
+        }
+    }
+
+        public static void main (String[] args){
+
+//        printRow(15);
+//        printDesc(10);
+
+            Scanner sc = new Scanner(System.in);
+            int n = sc.nextInt();
+
+            printasc(n);
+            printdes(n-1);
+        }
+    }
