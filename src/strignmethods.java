@@ -12,7 +12,7 @@ public class strignmethods {
 //           System.out.println(tolowercase);
 //           System.out.println(touppercase);
 
-//    want to print some starting and end stirng in the given string
+//    want to print some starting and end string in the given string
 //           String name = "Munjpara";
 //           System.out.println(name.substring(1));
 //           System.out.println(name.substring(1,5));

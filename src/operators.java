@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class operators {
     public static void main(String[] args) {
 //
@@ -14,7 +16,12 @@ public class operators {
 //if any one condition is true then will print True
         System.out.println(123>42 || 123>312312);
 
+// Example = Given KiloMeter to convert Miles
 
+        Scanner sc = new Scanner(System.in);
+        int KiloToMile = sc.nextInt();
+        double KiloToMilefinal = KiloToMile * 0.62137119;
+        System.out.println("Final:-- " + KiloToMilefinal);
 
 
     }
