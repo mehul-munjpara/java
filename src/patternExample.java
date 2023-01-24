@@ -69,6 +69,21 @@ public class patternExample {
                 starpattern1(i);
                 System.out.println();
             }
+
+
+            //This is for
+            //1
+            //1 2
+            //1 2 3
+            //1 2 3 4 5
+            //1 2 3 4
+            //1 2 3
+            //1 2
+            //1
+            for(int i = n-1; i>=1; i--){
+                starpattern1(i);
+                System.out.println();
+            }
         }
     }
 
