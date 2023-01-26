@@ -1,4 +1,4 @@
-public class function {
+public class _7_function {
 
     static int sum(int a, int b){
         int s = a + b;
@@ -26,7 +26,7 @@ public class function {
         System.out.println(s3);
 
 
-        //This is only for PrintName function
+        //This is only for PrintName _7_function
         PrintName();
 
         int x= 19;

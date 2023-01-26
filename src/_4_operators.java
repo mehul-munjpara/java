@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class operators {
+public class _4_operators {
     public static void main(String[] args) {
 //
 //        int a = (6 * 6) - (6*6);

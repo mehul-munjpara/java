@@ -1,4 +1,4 @@
-public class string {
+public class _3_string {
     public static void main(String[] args) {
 
       //  Scanner sc = new Scanner(System.in);

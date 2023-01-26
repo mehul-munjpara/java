@@ -1,23 +1,23 @@
-public class strignmethods {
+public class _5_strignmethods {
     public static void main(String[] args) {
 
 //        String name = "Mehul";
 //        int value = name.length();
 //        System.out.println(value);
 
-// to convert upper and lower case in any string
+// to convert upper and lower case in any _3_string
 //           String str = "MOhit";
 //           String tolowercase = str.toLowerCase();
 //           String touppercase = str.toUpperCase();
 //           System.out.println(tolowercase);
 //           System.out.println(touppercase);
 
-//    want to print some starting and end string in the given string
+//    want to print some starting and end _3_string in the given _3_string
 //           String name = "Munjpara";
 //           System.out.println(name.substring(1));
 //           System.out.println(name.substring(1,5));
 
-//        want to change string from old to new
+//        want to change _3_string from old to new
 
 //        String str = "Munjpara";
 //        System.out.println(str);
@@ -28,7 +28,7 @@ public class strignmethods {
 //        System.out.println(name1.endsWith("min"));
 
 
-// check position in the string
+// check position in the _3_string
 //        String str = "mohit";
 //        System.out.println(str.charAt(4));
 
