@@ -1,4 +1,4 @@
-public class array {
+public class _10_array {
 
 
     public static void main(String[] args){
