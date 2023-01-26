@@ -44,6 +44,21 @@ public class _8_loops {
 //        }
 
 
+        // Break and Continue using loop
+
+
+        int a = 5;
+
+        for(int i =0; i<=a; i++){
+            System.out.print(" "+ i+ " ");
+            System.out.println(" Will End Loop after this");
+        if(i==3){
+            System.out.println("End loop");
+            break;
+        }
+
+        }
+
 
 
 
