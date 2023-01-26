@@ -70,7 +70,6 @@ public class patternExample {
                 System.out.println();
             }
 
-
             //This is for
             //1
             //1 2
