@@ -11,7 +11,6 @@ public class _2_DisplayArray {
         return Multiply;
     }
 
-
     public static void main(String[] args) {
 //        int[] arr = {9,2,3,4,5};
 //
