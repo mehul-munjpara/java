@@ -30,5 +30,17 @@ public class _10_array {
         System.out.println(marks2[3]);
 
 
+        // Print All Array's using for loop
+
+        double[] sub = new double[4];
+        sub[0] = 4242.2323;
+        sub[1] = 454.003;
+        sub[2] = 111.5545;
+        sub[3] = 888.76;
+
+        for (int i = 0; i<4; i++ ){
+            System.out.println(sub[i]);
+        }
+
     }
 }
