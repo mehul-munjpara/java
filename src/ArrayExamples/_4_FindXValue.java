@@ -2,7 +2,6 @@ package ArrayExamples;
 import java.util.*;
 public class _4_FindXValue {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
 
@@ -20,7 +19,5 @@ public class _4_FindXValue {
                 System.out.println("X found in this Index:- " + i);
             }
         }
-
-
     }
 }
