@@ -20,15 +20,17 @@ public class _14_String {
         System.out.println(change);
         change.setCharAt(0,'K');
         System.out.println("The changed String is:- " +change);
+//To add String
+        change.insert(0,'K');
+        System.out.println("Now it is Punjabi food name:- " + change);
 
         //combine two string
-        String firstname = "Mehul";
-        String lastname = "Munjpara";
-        String Fullname = firstname + " "+lastname;
-        System.out.println(Fullname);
-
-        //For length
-        System.out.println(Fullname.length());
+//        String firstname = "Mehul";
+//        String lastname = "Munjpara";
+//        String Fullname = firstname + " "+lastname;
+//        System.out.println(Fullname);
+//        //For length
+//        System.out.println(Fullname.length());
 
         //To print any startin or ending in string
 //        String sentence = "MohitMunjpara";
