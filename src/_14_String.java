@@ -14,6 +14,13 @@ public class _14_String {
 ////Converrt string to character Array
 //        char[] arr = str1.toCharArray();
 
+        //change the string
+
+        StringBuilder change = new StringBuilder("Raju");
+        System.out.println(change);
+        change.setCharAt(0,'K');
+        System.out.println("The changed String is:- " +change);
+
         //combine two string
         String firstname = "Mehul";
         String lastname = "Munjpara";
@@ -22,6 +29,11 @@ public class _14_String {
 
         //For length
         System.out.println(Fullname.length());
+
+        //To print any startin or ending in string
+//        String sentence = "MohitMunjpara";
+//        String name = sentence.substring(2,sentence.length());
+//        System.out.println("The String would be: -- " +name);
 
 
     }
