@@ -23,6 +23,9 @@ public class _14_String {
 //To add String
         change.insert(0,'K');
         System.out.println("Now it is Punjabi food name:- " + change);
+        //For delete
+        change.delete(3,4);
+        System.out.println("Now after deleted J from the string:- " +change);
 
         //combine two string
 //        String firstname = "Mehul";
@@ -37,6 +40,19 @@ public class _14_String {
 //        String name = sentence.substring(2,sentence.length());
 //        System.out.println("The String would be: -- " +name);
 
+        //To Reverse the String
+          StringBuilder sb = new StringBuilder("Mehul");
 
+          for (int i = 0; i<sb.length()/2;i++){
+              int front = i;
+              int back = sb.length()-1-i;
+
+              char FrontChar = sb.charAt(front);
+              char BackChar = sb.charAt(back);
+
+              sb.setCharAt(front,BackChar);
+              sb.setCharAt(back,FrontChar);
+          }
+        System.out.println(sb);
     }
 }
