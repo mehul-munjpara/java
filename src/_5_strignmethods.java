@@ -5,19 +5,19 @@ public class _5_strignmethods {
 //        int value = name.length();
 //        System.out.println(value);
 
-// to convert upper and lower case in any _3_string
+// to convert upper and lower case in any _3_PrimitiveDataTypes_Str_int_float
 //           String str = "MOhit";
 //           String tolowercase = str.toLowerCase();
 //           String touppercase = str.toUpperCase();
 //           System.out.println(tolowercase);
 //           System.out.println(touppercase);
 
-//    want to print some starting and end _3_string in the given _3_string
+//    want to print some starting and end _3_PrimitiveDataTypes_Str_int_float in the given _3_PrimitiveDataTypes_Str_int_float
 //           String name = "Munjpara";
 //           System.out.println(name.substring(1));
 //           System.out.println(name.substring(1,5));
 
-//        want to change _3_string from old to new
+//        want to change _3_PrimitiveDataTypes_Str_int_float from old to new
 
 //        String str = "Munjpara";
 //        System.out.println(str);
@@ -28,7 +28,7 @@ public class _5_strignmethods {
 //        System.out.println(name1.endsWith("min"));
 
 
-// check position in the _3_string
+// check position in the _3_PrimitiveDataTypes_Str_int_float
 //        String str = "mohit";
 //        System.out.println(str.charAt(4));
 
