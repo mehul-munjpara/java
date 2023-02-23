@@ -5,8 +5,6 @@ public class _18_ClassesAndObjects {
             int mileAge;
         }
 
-
-
         public static void main(String[] args) {
 
 //Here Fortuner is  a Object
