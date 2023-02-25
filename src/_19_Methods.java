@@ -9,11 +9,11 @@
             person p2 = new person();
             p2.name = "Mohit";
 
+//here we have called walk() and  eat() methods
             p1.walk();
             p2.eat();
 
         }
-
 
         static class person{
             String name;
