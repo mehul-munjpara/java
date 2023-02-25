@@ -27,7 +27,7 @@
                 System.out.println(name + " is eating. ");
             }
 
-           //this is also called polymorphism
+           //this is also called polymorphism:- used walk() two times.
             void walk(int steps){
                 System.out.println(name + " walked " + steps + " steps.");
             }
