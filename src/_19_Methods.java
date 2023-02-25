@@ -12,6 +12,7 @@
 //here we have called walk() and  eat() methods
             p1.walk();
             p2.eat();
+            p2.walk(4);
 
         }
 
@@ -24,6 +25,11 @@
             }
             void eat(){
                 System.out.println(name + " is eating. ");
+            }
+
+           //this is also called polymorphism
+            void walk(int steps){
+                System.out.println(name + " walked " + steps + " steps.");
             }
         }
 
