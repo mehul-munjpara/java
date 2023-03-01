@@ -52,25 +52,25 @@ public class BasicToAdvance {
 
         // Nested If, Else
 
-        Scanner sc = new Scanner(System.in);
-        int num1 = sc.nextInt();
-        int num2 = sc.nextInt();
-        int num3 = sc.nextInt();
-
-        if(num1>num2){
-            if (num1>num3){
-                System.out.println("The maximum value is :- " + num1);
-            }else {
-                System.out.println("The maximum value is :- " + num3);
-            }
-        }
-        else{
-            if (num2>num3){
-                System.out.println("The maximum value is :- " + num2);
-            }else {
-                System.out.println("The maximum value is :- " + num3);
-            }
-        }
+//        Scanner sc = new Scanner(System.in);
+//        int num1 = sc.nextInt();
+//        int num2 = sc.nextInt();
+//        int num3 = sc.nextInt();
+//
+//        if(num1>num2){
+//            if (num1>num3){
+//                System.out.println("The maximum value is :- " + num1);
+//            }else {
+//                System.out.println("The maximum value is :- " + num3);
+//            }
+//        }
+//        else{
+//            if (num2>num3){
+//                System.out.println("The maximum value is :- " + num2);
+//            }else {
+//                System.out.println("The maximum value is :- " + num3);
+//            }
+//        }
 
 
 //        Scanner sc = new Scanner(System.in);
@@ -100,12 +100,45 @@ public class BasicToAdvance {
 //        }
 
 
-        // Loop
+        // Loops
+
+        // While loop
+
 //        int i = 1;
 //        while(i<=5){
 //            System.out.println(i);
 //            i = i + 1;
 //        }
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Enter Any Number:- ");
+//        int num = sc.nextInt();
+//
+//        while (num >= 0){
+//           if (num % 2 == 0 ){
+//               System.out.print("Even Number");
+//               break;
+//           }else {
+//               System.out.print("Odd Number");
+//               break;
+//           }
+//        }
+
+
+        // Do - While Loop
+
+        System.out.print("Enter any number here := ");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+
+        do{
+            System.out.println(num + " ");
+            num ++;
+
+        }while(num <= 10);
+
+
+        //for loop
 
 //        for(int i = 1; i<=5; i++){
 //            System.out.println(i);
