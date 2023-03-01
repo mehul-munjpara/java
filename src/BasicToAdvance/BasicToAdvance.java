@@ -22,6 +22,19 @@ public class BasicToAdvance {
 
         //Conditional Statements
 
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the Password:- ");
+        int pwd = sc.nextInt();
+
+        if (pwd == 12345){
+            System.out.println("You are Loged In");
+        }else{
+            System.out.println("Password is Wrong............");
+        }
+
+
+
+//if, else-if
 //        Scanner sc = new Scanner(System.in);
 //        System.out.println("Enter Age:- ");
 
@@ -85,7 +98,6 @@ public class BasicToAdvance {
 //        System.out.print("Enter Numbers:- ");
 //        Scanner sc = new Scanner(System.in);
 //        int num = sc.nextInt();
-//
 //        for (int i = 1; i<=10; i++){
 //            System.out.println(num*i);
 //        }
