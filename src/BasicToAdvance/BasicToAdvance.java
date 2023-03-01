@@ -63,13 +63,13 @@ public class BasicToAdvance {
             }else {
                 System.out.println("The maximum value is :- " + num3);
             }
-        }else{
+        }
+        else{
             if (num2>num3){
                 System.out.println("The maximum value is :- " + num2);
             }else {
                 System.out.println("The maximum value is :- " + num3);
             }
-
         }
 
 
