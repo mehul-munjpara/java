@@ -22,15 +22,16 @@ public class BasicToAdvance {
 
         //Conditional Statements
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the Password:- ");
-        int pwd = sc.nextInt();
-
-        if (pwd == 12345){
-            System.out.println("You are Loged In");
-        }else{
-            System.out.println("Password is Wrong............");
-        }
+//if, else
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Enter the Password:- ");
+//        int pwd = sc.nextInt();
+//
+//        if (pwd == 12345){
+//            System.out.println("You are Loged In");
+//        }else{
+//            System.out.println("Password is Wrong............");
+//        }
 
 
 
@@ -47,6 +48,29 @@ public class BasicToAdvance {
 //        }else{
 //            System.out.println("You are not Adult");
 //        }
+
+
+        // Nested If, Else
+
+        Scanner sc = new Scanner(System.in);
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        int num3 = sc.nextInt();
+
+        if(num1>num2){
+            if (num1>num3){
+                System.out.println("The maximum value is :- " + num1);
+            }else {
+                System.out.println("The maximum value is :- " + num3);
+            }
+        }else{
+            if (num2>num3){
+                System.out.println("The maximum value is :- " + num2);
+            }else {
+                System.out.println("The maximum value is :- " + num3);
+            }
+
+        }
 
 
 //        Scanner sc = new Scanner(System.in);
