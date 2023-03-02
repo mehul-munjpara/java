@@ -34,6 +34,21 @@ public class BasicToAdvance {
 //        int t = (int) f;
 //        System.out.println(t);
 
+        // Assignment Operators
+
+        int num1  = 3;
+        int num2 = 2;
+        int result = num1 + num2;
+        int result1 = num1 - num2;
+        int result2 = num1 * num2;
+        int result3 = num1 / num2;
+
+        System.out.println(result);
+        System.out.println(result1);
+        System.out.println(result2);
+        System.out.println(result3);
+
+
 
         //Conditional Statements
 
