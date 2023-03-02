@@ -19,6 +19,10 @@ public class BasicToAdvance {
 //           String str2 = "Munjpara";
 //           System.out.println(str + "_" +str2);
 
+//            char c = 'a';
+//            c++;
+//            System.out.println(c);
+
 
         //Conditional Statements
 
@@ -127,15 +131,15 @@ public class BasicToAdvance {
 
         // Do - While Loop
 
-        System.out.print("Enter any number here := ");
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-
-        do{
-            System.out.println(num + " ");
-            num ++;
-
-        }while(num <= 10);
+//        System.out.print("Enter any number here := ");
+//        Scanner sc = new Scanner(System.in);
+//        int num = sc.nextInt();
+//
+//        do{
+//            System.out.println(num + " ");
+//            num ++;
+//
+//        }while(num <= 10);
 
 
         //for loop
@@ -158,6 +162,20 @@ public class BasicToAdvance {
 //        for (int i = 1; i<=10; i++){
 //            System.out.println(num*i);
 //        }
+
+        //Print A to Z using For Loop
+
+        for (char c= 'A'; c<='Z'; c++){
+            System.out.print(" "+ c + " ");
+        }
+        System.out.println();
+
+        //Print Z to A using loop
+        for (char c= 'z'; c>='a'; c--){
+            System.out.print(" "+ c + " ");
+        }
+
+
 
 //  Arrays
 //
