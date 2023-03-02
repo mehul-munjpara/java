@@ -23,6 +23,17 @@ public class BasicToAdvance {
 //            c++;
 //            System.out.println(c);
 
+        // DataType Conversion
+
+//        int a = 3223;
+//       // byte b = 257;
+//        byte b = (byte) 257;
+//        System.out.println(b);
+//
+//        float f = 4.2f;
+//        int t = (int) f;
+//        System.out.println(t);
+
 
         //Conditional Statements
 
@@ -165,15 +176,15 @@ public class BasicToAdvance {
 
         //Print A to Z using For Loop
 
-        for (char c= 'A'; c<='Z'; c++){
-            System.out.print(" "+ c + " ");
-        }
-        System.out.println();
-
-        //Print Z to A using loop
-        for (char c= 'z'; c>='a'; c--){
-            System.out.print(" "+ c + " ");
-        }
+//        for (char c= 'A'; c<='Z'; c++){
+//            System.out.print(" "+ c + " ");
+//        }
+//        System.out.println();
+//
+//        //Print Z to A using loop
+//        for (char c= 'z'; c>='a'; c--){
+//            System.out.print(" "+ c + " ");
+//        }
 
 
 
